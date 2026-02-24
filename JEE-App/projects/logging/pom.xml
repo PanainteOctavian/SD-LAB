@@ -1,0 +1,20 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>root.project.projects</groupId>
+   <artifactId>logging</artifactId>
+   <packaging>jar</packaging>
+   <name>logging</name>
+   <parent>
+      <groupId>root.project</groupId>
+      <artifactId>projects</artifactId>
+      <version>1.0</version>
+   </parent>
+   <dependencies>
+      <dependency>
+         <groupId>javax</groupId>
+         <artifactId>javaee-api</artifactId>
+         <version>8.0.1</version>
+         <scope>provided</scope>
+      </dependency>
+   </dependencies>
+</project>
