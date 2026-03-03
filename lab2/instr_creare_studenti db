@@ -1,0 +1,25 @@
+octavian@LaptopPSO:~/Documents/Facultate/SD/lab2$ sqlite3 studenti.db
+SQLite version 3.45.1 2024-01-30 16:01:20
+Enter ".help" for usage hints.
+sqlite> CREATE TABLE IF NOT EXISTS SEQUENCE (
+    SEQ_NAME VARCHAR(50) NOT NULL,
+    SEQ_COUNT DECIMAL(38) NOT NULL,
+    PRIMARY KEY (SEQ_NAME)
+);
+sqlite> INSERT INTO SEQUENCE (SEQ_NAME, SEQ_COUNT) VALUES ('SEQ_GEN_IDENTITY', 0);
+sqlite> .tables
+SEQUENCE
+sqlite> .quit
+octavian@LaptopPSO:~/Documents/Facultate/SD/lab2$ sqlite3 studenti.db
+SQLite version 3.45.1 2024-01-30 16:01:20
+Enter ".help" for usage hints.
+sqlite> CREATE TABLE STUDENTENTITY (
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    NUME VARCHAR(255),
+    PRENUME VARCHAR(255),
+    VARSTA INTEGER
+);
+sqlite> .tables
+SEQUENCE       STUDENTENTITY
+sqlite> .quit
+
