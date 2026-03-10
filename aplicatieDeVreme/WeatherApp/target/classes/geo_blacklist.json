@@ -1,0 +1,16 @@
+{
+  "blacklistedCountries": [
+    "KP",
+    "RU",
+    "BY",
+    "IR",
+    "SY",
+    "CU"
+  ],
+  "blacklistedRegions": [
+    "UA/CRIMEA",
+    "GE/ABKHAZIA",
+    "GE/SOUTH_OSSETIA",
+    "AZ/NAGORNO_KARABAKH"
+  ]
+}
